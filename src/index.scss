@@ -19,3 +19,23 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#root {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  /* display: none; */
+  width: 10px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F1F1; /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2A2A2A; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 2px solid #F1F1F1; /* creates padding around scroll thumb */
+}
